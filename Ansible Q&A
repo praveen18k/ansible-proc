@@ -1,2 +1,3 @@
 Q - Push vs Pull ?
-A - 
+A - Pull mechanisam will have additional agent software.
+  - there may not be change in configuration every time, chnage in configuration is very rare so wastage of data.
