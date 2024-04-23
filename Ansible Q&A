@@ -1,3 +1,4 @@
 Q - Push vs Pull ?
 A - Pull mechanisam will have additional agent software.
-  - there may not be change in configuration every time, chnage in configuration is very rare so wastage of data.
+  - In Pull there may not be change in configuration every time, chnage in configuration is very rare so wastage of data.
+  - In Push additional agent is not required ansible server will push the configuration whenever new version updated.
