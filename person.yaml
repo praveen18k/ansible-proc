@@ -1,0 +1,35 @@
+# List of persons
+- name: praveen
+  dob: 01-01-24
+# this is map
+  aadress:
+  - city: hyd
+    country: india
+    dno: 101
+    street: GS Colony
+# this is list of addresses
+  addresses:
+  - type: perm
+    city: hyd
+    country: india
+  - type: current
+    city: texas
+    country: US
+# This is second person
+- name: naveen
+  dob: 01-01-24
+# this is map
+  aadress:
+  - city: hyd
+    country: india
+    dno: 101
+    street: GS Colony
+# this is list of addresses
+  addresses:
+  - type: perm
+    city: hyd
+    country: india
+  - type: current
+    city: texas
+    country: US
+
