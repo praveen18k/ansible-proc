@@ -16,3 +16,5 @@ A - Adhoc commands are emergency commands, if we want to login and perform actio
   - Ex: To install and start nginx without login to server.
     CMD: $ ansible -i inventory mongodb (name of the inventory) --become(execution access) -e ansible_user=centos -e ansible_password=DevOps321 -m ansible.builtin.yum -a "name=nginx state=installed"
     CMD: $ ansible -i inventory mongodb --become -e ansible_user=centos -e ansible_password=DevOps321 -m ansible.builtin.service -a "name=nginx state=started"
+Q - What are playbooks ?
+A - In playbook we keep all ansible modules/collections in a YAML file and run that file
