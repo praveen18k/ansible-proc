@@ -19,3 +19,9 @@ A - Adhoc commands are emergency commands, if we want to login and perform actio
     CMD: $ ansible -i inventory mongodb --become -e ansible_user=centos -e ansible_password=DevOps321 -m ansible.builtin.service -a "name=nginx state=started"
 Q - What are playbooks ?
 A - In playbook we keep all ansible modules/collections in a YAML file and run that file
+Q - What is configuration Management?
+A - 
+Q - Do you think Ansible is better than other configuration management tools? If yes, Why?
+A - Ansible is different from other configuration management tools and it is better in achiving a specific use case :
+  - Lets assume ansible is agent less, if you want to configure 100s of VMs or any servers, you dont have to install any agnet when you are using ansible as a configuration management tool. other configuration tolls have like master slave architecture becaue of these you have to pre configure all of these VMs. But in ansible case you have to have a password less authentication between host that ansible installed and the other servers which which you want to configure with ansible.
+Q - 
