@@ -37,5 +37,9 @@ Q - Can you explain me structure of Ansible Playbook using Roles ?
 A - We use ansible galaxy command to create the structure and these are the different folders create by ansible galaxy command .It creates roles, defaults, handlers..
 Q - What are handlers in Ansible and why are they used ?
 A - handlers are similar to the normal task in ansible but the only run when a task contents a notify directive, basically its a way of calling when it is required.
+Q - I would like to run a specific set of tasks only on windows vms and not Linux vms is it possible ?
+A - We can use tags to achive this use case.
+Q - Does ansible support parallel execution of tasks ?
+A - Yes, Ansible support parallel execution, and it executes task by task on all required machines.
 
 
