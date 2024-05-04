@@ -51,8 +51,8 @@ Q - What do you think that Ansible can improve ?
 A - Ansible can improve by providing feature like verbocity like debug level for task basis.
   - Ansible can work on IDs plugins for auto populate.
 Q - What are host vars and Groups vars ?
-A - The host_vars folders contains YAML file that reference specific devices.
-  - The The group_vars contains YAML file that references group of devices or all devices.
+A - The host_vars folders contains YAML file that reference specific server.
+  - The The group_vars contains YAML file that references group of servers or all servers.
 
 
 
