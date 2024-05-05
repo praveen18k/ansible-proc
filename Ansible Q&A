@@ -1,4 +1,5 @@
 Ansible Q&A from Mediuum - https://muditmathur121.medium.com/ansible-interview-q-a-34333cee7c42
+
 LinkedIN Ansible URL - https://media.licdn.com/dms/document/media/D4D1FAQF7nHKXtfbSLw/feedshare-document-pdf-analyzed/0/1714716448986?e=1715817600&v=beta&t=CDceltaOZTL3cw9mnfTVCcRaSTC1NcEBH6Voxj3Ktxo
 
 Q - Push vs Pull ?
@@ -6,7 +7,7 @@ A - Pull mechanisam will have additional agent software.
   - In Pull there may not be change in configuration every time, chnage in configuration is very rare so wastage of data.
   - In Push additional agent is not required ansible server will push the configuration whenever new version updated.
 Q - What is Ansible ?
-A - Ansible provides open-source automation that reduces complexity and runs everywhere. Using Ansible lets you automate virtually any task. Here are some common use cases for Ansible:
+A - Ansible provides open-source automation that reduces complexity and runs everywhere. Using Ansible lets you automate virtually any task. Here are some common use cases for      Ansible:
       - Eliminate repetition and simplify workflows.
       - Manage and maintain system configuration.
       - Continuously deploy complex software.
