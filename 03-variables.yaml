@@ -1,8 +1,13 @@
 - name: Print course name using variables
   hosts: nginx
+  vars:
+    course: AWS DevOps
+    trainer: Sivakumar
+    duration: 120 Hours
   tasks:
   - name: print course name with trainer name
     ansible.builtin.debug:
-      msg: "AWS DevOps training by Shivakumar"
-       
+      msg: "{{course}} training by {{trainer}} and duarion {{duration}}"
+      
+
   
