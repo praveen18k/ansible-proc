@@ -1,5 +1,5 @@
 [nginx]
-50.17.91.208
+172.31.29.255
 
 [nginx:vars]
 USER=Praveen
