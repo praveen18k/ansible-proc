@@ -1,2 +1,6 @@
 [nginx]
 50.17.91.208
+
+[nginx:vars]
+USER=Praveen
+TRAINER:Siva

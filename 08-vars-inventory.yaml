@@ -1,0 +1,7 @@
+- name: vars from inventory
+  name: nginx
+  tasks:
+  - name: print vakues from inventory
+    ansible.builtin.debug:
+      msg: "User Name:{{USER}} and Trainer:{{TRAINER}}"
+
