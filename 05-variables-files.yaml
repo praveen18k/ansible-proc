@@ -6,4 +6,4 @@
   tasks:
   - name: print course name with trainer name
     ansible.builtin.debug:
-      msg: "{{course}} training by {{trainer}} and duarion {{duration}}"
+      msg: "{{course}} training by {{trainer}} and duarion is {{duration}}"
