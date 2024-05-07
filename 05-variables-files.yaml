@@ -1,0 +1,9 @@
+- name: Print course name using variables
+  hosts: nginx
+  # Play level variables
+  var_files:
+  - 04-var-files.yaml
+  tasks:
+  - name: print course name with trainer name
+    ansible.builtin.debug:
+      msg: "{{course}} training by {{trainer}} and duarion {{duration}}"
