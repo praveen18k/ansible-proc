@@ -1,6 +1,6 @@
 [nginx]
 172.31.29.255
 
-[nginx:vars]
+[nginx: vars]
 USER=Praveen
 TRAINER:Siva
