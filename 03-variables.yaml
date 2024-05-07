@@ -1,4 +1,8 @@
 - name: Print course name using variables
   hosts: nginx
   tasks:
+  - name: print course name with trainer name
+    ansible.builtin.debug:
+      msg: "AWS DevOps training by Shivakumar"
+       
   
