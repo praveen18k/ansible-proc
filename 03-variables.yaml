@@ -1,0 +1,4 @@
+- name: Print course name using variables
+  hosts: nginx
+  tasks:
+  
