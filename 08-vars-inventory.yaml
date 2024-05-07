@@ -1,5 +1,5 @@
 - name: vars from inventory
-  name: nginx
+  hosts: nginx
   tasks:
   - name: print vakues from inventory
     ansible.builtin.debug:
