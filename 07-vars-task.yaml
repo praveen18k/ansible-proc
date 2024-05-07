@@ -1,5 +1,5 @@
 - name: Vars at task level
-  host: nginx
+  hosts: nginx
   # Variables at parent or play level
   vars:
   - money: "5000 rs"
