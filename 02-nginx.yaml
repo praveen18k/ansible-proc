@@ -1,7 +1,7 @@
 - name: Install,start,enable and run nginx #name is not mandatory but best practice 
   hosts: nginx
   become: yes # this will give root access to install packages
-  task:
+  tasks:
   - name: Install nginx
     ansible.builtin.yum:
       name: nginx
