@@ -1,5 +1,5 @@
 - name: Vars at task level
-  host: localhost
+  host: nginx
   # Variables at parent or play level
   vars:
   - money: "5000 rs"
@@ -14,4 +14,4 @@
       houses: "4 Houses"
     ansible.builtin.debug:
       msg: " Money:{{money}}, Land:{{land}} and HOUSES:{{houses}}"
-      
+
