@@ -3,5 +3,5 @@
   tasks:
   - name: print vakues from inventory
     ansible.builtin.debug:
-      msg: "User Name:{{USER}} and Trainer:{{TRAINER}}"
+      msg: "User Name:{{ansible_username}} and Password:{{ansible_password}}"
 
