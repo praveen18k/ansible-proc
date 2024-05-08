@@ -1,0 +1,13 @@
+- name: install pakages
+  hosts: localhost
+  become: yes
+  tasks:
+  - name: install package using loops
+    ansible.builtin.yum:
+      name: "{{item.name}}"
+      state: "{{item.state}}"
+    #list of map
+    loop:
+    - {nsme: 'nginx', state: 'absent'}
+    - {name: 'postfix', state: 'installed'}
+    - {name: 'mailx', state: 'installed'} 
