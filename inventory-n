@@ -1,5 +1,5 @@
 [nginx]
-172.31.29.255
+172.31.30.201
 
 [nginx:vars]
 ansible_username=centos
