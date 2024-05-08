@@ -3,7 +3,7 @@
 - nmae: ping the node
   hosts: mongodb
   # this is list of tasks/modules/collections
-  task:
+  tasks:
   - name: pinging the server
     this is the map
     ansible.builtin.ping:
