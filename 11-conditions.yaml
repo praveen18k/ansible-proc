@@ -5,16 +5,16 @@
     # you need to run linux commans directly, is ansible module not available
     # when the user roboshop doesnot exist ansible treating that it is failuer and return code(RC) = 1 and comeout by default
     # ignore_errors: true
+    # rc: 1 is exit status 
     ansible.builtin.command: id roboshop
     register: output # output is variable we will use it to display output
     ignore_errors: true
   - name: print the command output
     ansible.builtin.debug:
       msg: "OUTPUT is {{output}}"
-      when: output.rc != 1
-  - name: create the user roboshop
-    ansible.builtin.user:
-      name: roboshop
+  - name: print exit status
+    ansible.builtin.debug:
+      msg: "{{outpur.rc}}"
 
 
 
