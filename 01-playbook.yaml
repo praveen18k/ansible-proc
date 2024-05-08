@@ -1,7 +1,7 @@
 #Playbook is list of plays, always it start with " - "
 
 - nmae: ping the node
-  host: mongodb
+  hosts: mongodb
   # this is list of tasks/modules/collections
   task:
   - name: pinging the server
