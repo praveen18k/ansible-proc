@@ -7,7 +7,7 @@ A - Pull mechanisam will have additional agent software.
   - In Pull there may not be change in configuration every time, chnage in configuration is very rare so wastage of data.
   - In Push additional agent is not required ansible server will push the configuration whenever new version updated.
 Q - What are the ansible modules or collections you used ?
-A - .ping:| .debug:| .yum:| .service:| .user:| .command:| .shell:|
+A - .ping:| .debug:| .yum:| .copy:| .service:| .user:| .command:| .shell:|
 Q - what are Registers in Ansible?
 A - Some tasks will not show any output when running playbook. ex: running commands on your managed nodes using the command,shell modules will not display any output. you can use Register to capture the output of a task and save it to a variable. you can use this elseware in a playbook also.
 Q - What is Ansible ?
