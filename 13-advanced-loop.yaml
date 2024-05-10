@@ -1,6 +1,6 @@
 - name: install pakages
   hosts: localhost
-  become: yes
+  become: yes # Sudo access
   tasks:
   - name: install package using loops
     ansible.builtin.yum:
@@ -11,3 +11,7 @@
     - {nsme: 'nginx', state: 'absent'}
     - {name: 'postfix', state: 'installed'}
     - {name: 'mailx', state: 'installed'} 
+
+
+
+    
