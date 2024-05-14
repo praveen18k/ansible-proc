@@ -68,6 +68,8 @@ A - You can retrive variables that contain information about your managed hosts.
     example: ansible node1 -m setup
 Q - What is stat in  ansible ?
 A - state is module in ansible to check the statistics of the files and folders.
+Q - Ansible roles?
+A -  Ansible role is a proper directory structure to reuse the components
 
 
 
