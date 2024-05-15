@@ -8,6 +8,7 @@ Q - Push vs Pull ?
 A - Pull mechanisam will have additional agent software.
   - In Pull there may not be change in configuration every time, chnage in configuration is very rare so wastage of data.
   - In Push additional agent is not required ansible server will push the configuration whenever new version updated.
+  
 Q - What are the ansible modules or collections you used ?
 A - .ping:| .debug:| .yum:| .copy:| .service:| .user:| .command:| .shell:|
 Q - what are Registers in Ansible?
