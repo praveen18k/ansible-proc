@@ -52,10 +52,13 @@ A - We have 40 servers previously we used basic shell script to install some pac
 Q - What is Ansible Dynamic Inventory ? (Scenario based Q)
 A - Lets assume that you have VMs on AWS , Asssume developers are creating VMs on AWS, Admins are creating VMs on AWS and now we have configured Ansible to make some configuration on that VMs, lets assume you have 50 VMs and installed MYSQL ansible done it goot later point of time you realize that developers and admins are creating lot of more VMs how do you achive with ansible how do you check frequently what are the VMs add it it to the inventory no right.
  - For that Ansible support something called Dynamic Inventory so the concept of dynamic inventory is Ansible keeps looking at AWS account EC2 for what are the newly added VMs and Ansible would auto configure those VMs using the Ansible dynamic Inventory.
+
 Q - What is Ansible Galaxy command and why it is used for ?
 A - Ansible galaxy command creates structure 
+
 Q - Can you explain me structure of Ansible Playbook using Roles ?
 A - We use ansible galaxy command to create the structure and these are the different folders create by ansible galaxy command .It creates roles, defaults, handlers..
+
 Q - What are handlers in Ansible and why are they used ?
 A - handlers are similar to the normal task in ansible but the only run when a task contents a notify directive, basically its a way of calling when it is required.
 Q - I would like to run a specific set of tasks only on windows vms and not Linux vms is it possible ?
