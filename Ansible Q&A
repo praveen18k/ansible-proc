@@ -84,10 +84,11 @@ A - Ansible can improve by providing feature like verbocity like debug level for
 Q - What are host vars and Groups vars ?
 A - The host_vars folders contains YAML file that reference specific server.
   - The The group_vars contains YAML file that references group of servers or all servers.
-  
+
 Q - What are gathering facts?
 A - You can retrive variables that contain information about your managed hosts. these variables called facts and Ansible uses the setup module to gather these facts. The IP address on one of your managed nodes is axample of a fact. we can also turn off the facts by setting gather_facts boolean to false in your play ex: gather_facts: false.
     example: ansible node1 -m setup
+    
 Q - What is stat in  ansible ?
 A - state is module in ansible to check the statistics of the files and folders.
 Q - Ansible roles?
