@@ -42,11 +42,13 @@ A -
 Q - Do you think Ansible is better than other configuration management tools? If yes, Why?
 A - Ansible is different from other configuration management tools and it is better in achiving a specific use case :
   - Lets assume ansible is agent less, if you want to configure 100s of VMs or any servers, you dont have to install any agnet when you are using ansible as a configuration management tool. other configuration tolls have like master slave architecture becaue of these you have to pre configure all of these VMs. But in ansible case you have to have a password less authentication between host that ansible installed and the other servers which which you want to configure with ansible.
-  
+
 Q - Can you write an asnible Playbook to install httpd service and get it running ?
 A - 
+
 Q - How Ansible helped your organization ?
 A - We have 40 servers previously we used basic shell script to install some packages weather it be basic security patching as it is mandatory installation required by my organization, turning of firewall on all the VMs, and enabling strict rules. initially takes time to connect to VMs to inslall manually but once we adopted ansible we have reduced this time and ansible ws very effective and it saved lot of time previously it took 3 o 4 hours but now max in 30 min we can complete task.
+
 Q - What is Ansible Dynamic Inventory ? (Scenario based Q)
 A - Lets assume that you have VMs on AWS , Asssume developers are creating VMs on AWS, Admins are creating VMs on AWS and now we have configured Ansible to make some configuration on that VMs, lets assume you have 50 VMs and installed MYSQL ansible done it goot later point of time you realize that developers and admins are creating lot of more VMs how do you achive with ansible how do you check frequently what are the VMs add it it to the inventory no right.
  - For that Ansible support something called Dynamic Inventory so the concept of dynamic inventory is Ansible keeps looking at AWS account EC2 for what are the newly added VMs and Ansible would auto configure those VMs using the Ansible dynamic Inventory.
