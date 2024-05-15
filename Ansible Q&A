@@ -28,6 +28,7 @@ A - Inventory is list of hosts your ansible server is managing.
 
 Q - What is Adhoc commands in Ansible ?
 A - Ansible adhoc command is generallay command line option to do somthing in the ansible hosts in emergency cases.
+
 A - Adhoc commands are emergency commands, if we want to login and perform action in server without login, we can use adhoc commands.
   - Ex: To install and start nginx without login to server.
     CMD: $ ansible -i inventory mongodb (name of the inventory) --become(execution access) -e ansible_user=centos -e ansible_password=DevOps321 -m ansible.builtin.yum -a "name=nginx state=installed"
