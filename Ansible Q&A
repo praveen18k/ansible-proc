@@ -24,7 +24,8 @@ A - Ansible provides open-source automation that reduces complexity and runs eve
     Ansible uses simple, human-readable scripts called playbooks to automate your tasks. You declare the desired state of a local or remote system in your playbook. Ansible ensures that the system remains in that state.
 
 Q - What is inventory ?
-A - Inventory is list of hosts your ansible server is managing.
+A - Inventory is list of hosts your ansible server is managing. 
+
 Q - What is Adhoc commands in Ansible ?
 A - Ansible adhoc command is generallay command line option to do somthing in the ansible hosts in emergency cases.
 A - Adhoc commands are emergency commands, if we want to login and perform action in server without login, we can use adhoc commands.
