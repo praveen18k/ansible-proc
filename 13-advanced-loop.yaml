@@ -8,7 +8,7 @@
       state: "{{item.state}}"
     #list of map
     loop:
-    - {nsme: 'nginx', state: 'absent'}
+    - {name: 'nginx', state: 'absent'}
     - {name: 'postfix', state: 'installed'}
     - {name: 'mailx', state: 'installed'} 
 
