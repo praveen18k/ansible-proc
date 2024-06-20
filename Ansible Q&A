@@ -95,6 +95,9 @@ A - state is module in ansible to check the statistics of the files and folders.
 Q - Ansible roles?
 A -  Ansible role is a proper directory structure to reuse the components
 
+Q - What is the difference between Curl and WGET ?
+A - Both are same but wget we can use to get column wise outputs.
+
 
 
 
